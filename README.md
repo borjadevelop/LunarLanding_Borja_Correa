@@ -3,6 +3,7 @@
 
 ##Lenguaje de Marcas
 ####Proyecto Primera Evaluación.
+#### Version Indent
 
 Hemos creado una página web que se basa en el juego Lunar Lander.
 El juego de Lunar Lander se trata de intentar aterrizar la nave a una velocidad correcta para que no explote.
@@ -31,7 +32,9 @@ Las **_páginas web_** donde he encontrado algunos recursos son:
 
 
 [W3Schools](http://www.w3schools.com/)
-Aprender a programar [another place]
+
+[Aprender a programar] [another place]
+
 Y en la página Moodle del instituto.
 
 [another place]: http://www.aprenderaprogramar.es/index.php?option=com_content&view=article&id=545:div-y-span-html-tags-capas-o-contenedores-ejemplos-uso-maquetar-estructura-de-paginas-web-cu00726b&catid=69:tutorial-basico-programador-web-html-desde-cero&Itemid=192
@@ -48,3 +51,4 @@ Kevin Blanco.
 Jordi Genovart.
 Vili Mihailov.
 Oscar Mudarra.
+
