@@ -31,7 +31,7 @@ Las **_páginas web_** donde he encontrado algunos recursos son:
 
 
 [W3Schools](http://www.w3schools.com/)
-Aprender a programar [another place]
+[Aprender a programar] [another place]
 Y en la página Moodle del instituto.
 
 [another place]: http://www.aprenderaprogramar.es/index.php?option=com_content&view=article&id=545:div-y-span-html-tags-capas-o-contenedores-ejemplos-uso-maquetar-estructura-de-paginas-web-cu00726b&catid=69:tutorial-basico-programador-web-html-desde-cero&Itemid=192
