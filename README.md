@@ -9,28 +9,35 @@ El juego de Lunar Lander se trata de hacer aterrizar la nave a una velocidad cor
 La nave sólo sube y baja y se controlaran los motores con teclado o ratón.
 
 
+
 La versión del juego final incluye: 
 HTML con los elementos básicos.
 CSS para móvil y para desktop, cambiándose con media query.
 JS mínimo para que funcione el juego, caiga la nave, cambie las imágenes, y muestre divs ocultos con el resto de opciones.
 
-Pre visualización
 
-Tareas desarrolladas :
+
+
+**Tareas desarrolladas** :
 
 La página creada de  **Lunar Lander**  es editada desde cero con notepad++.
 
+
 Se han añadido respectivos archivos CSS para cada una de las opciones, desktop y versión móvil.
 
+
 El diseño ha sido creado a base de divs, intentando asemejar al máximo al proyecto que había recibido.
+
 
 Se han tenido que modificar todas las imágenes, modificar tamaños, arreglar imperfecciones, hacerlas transparentes, 
 e incluso diseñar una imagen propia similar a la recibida para que no tuviera marca de agua.
 Se han optimizado las imágenes con gauntletPNG y después con TinyPNG.
 
+
 Se ha creado un menú **_Hover DropDown_** para desplegarse cuando pasas el ratón por encima y he añadido un efecto de escala para las imágenes del menú, así como en el botón de reiniciar y el de about.
 
-Se ha implementado JavaScript:
+
+**Se ha implementado JavaScript**:
 Apretando una tecla el motor se enciende, y se apaga cuando la sueltas, igual que haciendo click en la pantalla.
 No he podido implementar el Touch para la pantalla móvil.
 Al llegar a la Altura máxima permitida se comprueba si la velocidad es la correcta para aterrizar bien, sino, la nave explotará.
@@ -39,7 +46,7 @@ Se han añadido diferentes dificultades de juego.
 Cambios de imágenes de la nave con el motor apagado, encendido, explosión de la nave con una imagen .gif .
 Añadido contadores de velocidad, altura y fuel.
 Fuel desciende hasta llegar a 0.
-Menú de pause :
+**Menú de pause**:
 Reiniciar, diferentes tipos de dificultad, fácil, difícil, locura.
 Al aterrizar, se despliegan otros divs mostrando un mensaje y dando la opción de repetir.
 
