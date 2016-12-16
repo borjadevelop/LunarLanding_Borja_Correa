@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <TITLE>Lunar Lander. Ejercicio Desarrollo Aplicaciones Webs</TITLE>
+        <meta charset="utf-8">
+        <META NAME="DESCRIPTION" CONTENT="Lunar Lander. Ejercicio Desarrollo Aplicaciones Webs programado por Borja Correa Martín"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet'  media='screen and (min-width: 961px)' href='css/d.css'>
+        <link rel='stylesheet'  media='screen and (max-width: 960px)' href='css/m.css'>
+        <script type="text/javascript" src="js/js.js">var velocity = velocity;</script>
+    </head>
+    <body>
+        <div class="dropdown">
+            <button class="dropbtn"><img alt= "BotonAjustes"  src="img/ajustesbueno.png" class='imageajustes'></button>
+            <div class="dropdown-content">
+                <a class='btninfo' id='info'><img alt= "BotonInfo" src="img/info.png" class='imagenmando'></a>
+                <a class='btnpause' id='pause' ><img  alt= "Botonpause" src="img/pausebueno.png" class='imageapause'></a>
+                <a class='btnvol' id='btnvol'><img alt= "Botonvolumen" src="img/volumen.png" class='imagensonido' ></a>
+            </div>
+        </div>  
+        <span id='hidem' class='hidem'><br><br>CERRAR MEN&Uacute;</span>  
+        <div class="divinfo">
+        </div>
+        <div id='info' class="divinfodentro"><br><h1 id='h1'>INSTRUCCIONES</h1><br>CONSIGUE ATERRIZAR LA NAVE SIN QUE EXPLOTE.<br><br> PARA ENCENDER LOS MOTORES
+            DE LA NAVE TIENES QUE TOCAR LA PANTALLA PARA ACTIVAR O DESACTIVAR LOS MOTORES.<br><br> SI VAS DEMASIADO R&Aacute;PIDO EXPLOTARAS.
+        </div>		
+
+        <div class="divabout">
+        </div>
+        <div   class="divaboutdentro"><br><h1>ABOUT</h1><br>PROGRAMACI&Oacute;N Y DISE&Ntilde;OS<br> Borja Correa Mart&iacute;n.<br><br><br>PROYECTO<br>Jordi Genovart<BR>Vili Mihailov<BR>Kevin Blanco<BR>Oscar Mudarra</div>
+    </div>	
+
+
+    <div class="divpaused">
+    </div>
+    <div id='pause'  class="divpauseddentro"><br><h1 id='h1'>PAUSE</h1><br><p class='preiniciar'id='preiniciar'>REINICIAR</p><br><br>CAMBIA EL NIVEL DE DIFICULTAD.<p class='dificultad1'id='dificultad1'>NORMAL</p><p class='dificultad2'id='dificultad2'>DIF&Iacute;CIL</p><p class='dificultad3'id='dificultad3'> LOCURA</p>
+    </div>	
+
+
+    <div id = 'divllegada'class="divllegada"><br><h1>QUE PAS&Oacute; WEY</h1><p>Has aterrizado con una velocidad de: <span id="velocidadfinal">100</span> m/s </p><div id='divllegadadentro'class="divllegadadentro"><p class='preiniciar'id='preiniciar'>REINICIAR</p></div></div>
+    <div class='areaTactil' id='areaTactil'></div>	
+    <div id="nave" >
+        <img id='navef' src="img/nave-aplicacionpqsf.png" alt="img nave"  >
+    </div>
+    <div class="a">
+
+        <ul id="cpanel">
+            <li>Velocidad <span id="velocidad">100</span> m/s</li>
+            <li>Fuel: <span id="fuel">500</span> Litros</li>
+            <li>Altura <span id="altura">60</span> m</li>
+        </ul>
+    </div><div class="b"></div><div class="c">
+
+        <ul id="menu">
+            <li>Jugar</li>
+            <li>Instrucciones</li>
+            <li>Acerca de...</li>
+        </ul>
+    </div>
+    <div class="d"></div>
+    <h2 class='h2'id='about'>ABOUT</h2>
+</body>
+</html>
